@@ -20,4 +20,7 @@ function browserRedirect(){
 	else if(bIsPhoneos || bIsMipd || bIsUc7 || bIsUc || bIsCE || bIsWM){
 		console.log("iphone");
 	}
+	else {
+		console.log("pc");
+	}
 }
